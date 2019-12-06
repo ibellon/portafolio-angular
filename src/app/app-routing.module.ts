@@ -10,9 +10,13 @@ import { SearchComponent } from './pages/search/search.component';
 const app_routes: Routes = [
     {path: 'home', component: PortfolioComponent},
     {path: 'about', component: AboutComponent},
+    {path: 'docs', component: PortfolioComponent},
+    {path: 'contact', component: AboutComponent},
+    {path: 'mission', component: AboutComponent},
     {path: 'item/:id', component: ItemComponent},
     {path: 'search/:termino', component: SearchComponent},
     {path: '**', pathMatch: 'full', redirectTo: 'home'}
+
 ];
 
 @NgModule({
@@ -24,4 +28,4 @@ const app_routes: Routes = [
     ]
 })
 
-export class AppRoutingModule {}
+export class AppRoutingModule{}
