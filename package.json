@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "core-js": "^2.6.9",
-    "npm": "^6.11.2",
+    "npm": "^9.6.6",
     "rxjs": "~6.2.0",
     "to": "^0.2.9",
     "update": "^0.7.4",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.8.9",
-    "@angular/cli": "^6.2.9",
+    "@angular/cli": "^16.0.0",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
     "@types/jasmine": "^2.8.16",
